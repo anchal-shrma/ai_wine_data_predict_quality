@@ -1,9 +1,5 @@
 # ai_wine_data_predict_quality
 In this project, I worked on predicting the quality of red wines based on various physicochemical properties such as acidity, alcohol content, pH, and sulfur levels. The dataset was preprocessed by cleaning and transforming the features, including categorizing the 'quality' column into Low, Medium, and High classes. I created additional features like 'sulfur_ratio' and 'log_density' to enhance the prediction model. Several machine learning algorithms, including Logistic Regression, Decision Trees, and Random Forest, were tested to determine the best model for wine quality classification. After comparing the models, the Random Forest Classifier provided the best performance, achieving high accuracy and a strong F1 score, making it the most reliable model for this task. This project demonstrates how feature engineering and model selection can significantly impact the performance of machine learning models in classification tasks.
 
-The best model among all tested models is the RandomForestClassifier. This model was selected by the AutoML function based on the optimization criteria set for the experiment. The Random Forest algorithm performed well compared to the other models, achieving the highest performance across the evaluated metrics, such as precision, recall, and F1 score.
-
-The best performance was achieved by the RandomForestClassifier with an F1 score that balances precision and recall. Precision measures the accuracy of positive predictions, while recall indicates the model's ability to capture all positive cases. The Random Forest model showed a strong ability to balance these two metrics, making it the most reliable choice among the models tested.
-
 Data used in this project is taken from https://archive.ics.uci.edu/dataset/186/wine+quality
 Link to video demo: https://youtu.be/N_S5fCLB-YA
